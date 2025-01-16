@@ -1,0 +1,1118 @@
+import PipesImg from "../../assets/images/products/pipes.png";
+
+export const productsData = {
+  products: [
+    {
+      id: 1,
+      name: "Pipes",
+      param: "pipes",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Stainless Steel Pipe",
+          grades: [
+            "Stainless Steel 304 Pipe",
+            "Stainless Steel 304L Pipe",
+            "Stainless Steel 316 Pipe",
+            "Stainless Steel 316L Pipe",
+            "316h Stainless Steel Pipe",
+            "Stainless Steel 3105 Pipe",
+            "Stainless Steel 317L Pipe",
+            "Stainless Steel 321 Pipe",
+            "Stainless Steel 347H Pipe",
+            "Stainless Steel 410 Pipe",
+            "Stainless Steel 445 Pipe",
+            "Stainless Steel 904L Pipe",
+            "JIS G3459 Stainless Steel Pipes",
+            "Alloy 31 Pipe",
+            "Stainless Steel Square Pipe",
+            "Am 350 Stainless Steel",
+          ],
+        },
+        {
+          id: 2,
+          name: "Alloy Steel Pipe",
+          grades: [
+            "ASTM A335 P1",
+            "ASTM A335 P5",
+            "ASTM A335 P9",
+            "ASTM A335 P11",
+            "ASTM A335 P12",
+            "ASTM A335 P22",
+            "ASTM A335 P91",
+            "ASTM A691 Pipe",
+            "16Mo3 Pipe",
+            "ASTM A334 GR 6",
+            "Chromoly Pipe",
+            "12Cr1MoV Pipe",
+          ],
+        },
+        {
+          id: 3,
+          name: "Carbon Steel Pipe",
+          grades: [
+            "ASTM A53 Grade B Pipe",
+            "ASTM A106 Grade B",
+            "ASTM A106 Grade C",
+            "ASTM A333 Grade 6",
+            "ASTM A333 Grade 1",
+            "ASTM A671 CC60",
+            "ASTM A671 CC85",
+            "ASTM A672 Pipe",
+            "ASTM A672 Gr B60",
+            "ASTM A672 C65",
+            "ASTM A672 C70",
+            "Q195 Steel Pipe",
+            "S275JR Pipe",
+            "ASTM A519 Grade 4130",
+            "ASTM A519 Grade 4140",
+            "ASTM A519 Grade 1026",
+            "ASTM A519 Grade 1018",
+            "ASTM A210 Grade A1",
+            "ASTM A120 Black Steel Pipe",
+            "ASTM A334 GR.1",
+          ],
+        },
+        {
+          id: 4,
+          name: "Nickel Alloy Pipe",
+          grades: [
+            "Nickel 200 Pipe",
+            "Nickel 201 Pipe",
+            "Inconel Pipe",
+            "Inconel 600 Pipe",
+            "Inconel 625 Pipe",
+            "Inconel 800 Pipe",
+            "Inconel 825 Pipe",
+            "Hastelloy Pipe",
+            "Hastelloy C276 Pipe",
+            "Hastelloy C22 Pipe",
+            "Monel Pipe",
+            "Monel 400 Pipe",
+            "Monel K500 Pipe",
+          ],
+        },
+        {
+          id: 5,
+          name: "Duplex/SMO Pipe",
+          grades: [
+            "Duplex 2205 Pipe",
+            "Super Duplex Pipe",
+            "ASTM A790 UNS S31803",
+            "ASTM A790 UNS S32205",
+            "ASTM A790 UNS S32750",
+            "ASTM A790 UNS S32760",
+            "UNS S32950 Pipe",
+            "250 SMO Pipe", 
+          ],
+        },
+        {
+          id: 6,
+          name: "API 5L Pipe",
+          grades: [
+            "API 5L Grade B Pipe",
+            "API 5L X42 Pipe",
+            "API 5L X46 Pipe",
+            "API 5L X52 Pipe",
+            "API 5L X56 Pipe",
+            "API 5L X60 Pipe",
+            "API 5L X65 Pipe",
+            "API 5L X70 Pipe",
+            "API 5L X80 Pipe",
+          ],
+        },
+        {
+          id: 7,
+          name: "Coated Steel Pipe",
+          grades: [
+            "Epoxy Coated Steel Pipe",
+            "3LPE Coated Pipe",
+            "Powder Coated Carbon Steel Pipe",
+            "Cement Lined Steel Pipe",
+            "PE Coated Steel Pipe",
+            "PTFE Lined Pipe",
+            "Bare Steel",
+            "Black Pipe",
+            "Galvanized Pipe",
+            "3LPP Coating",
+            "S275JR Pipe",
+            "EN 10210 S355J2H",
+            "Corten Steel Pipe",
+          ],
+        },
+        {
+          id: 8,
+          name: "Titanium Pipe",
+          grades: [
+            "Titanium Pipe",
+            "Titanium Grade 2 Pipe",
+            "Grade 5 Titanium Pipe",
+          ],
+        },
+        {
+          id: 9,
+          name: "Copper/Brass Pipe",
+          grades: [
+            "Copper Nickel Pipe",
+            "Copper Nickel 90/10 Pipe",
+            "Copper Nickel 70/30 Pipe",
+            "Copper Pipe",
+            "Brass Pipe",
+          ],
+        },
+        {
+          id: 10,
+          name: "Aluminium Pipe",
+          grades: [
+            "Aluminum Pipe",
+            "6061 Aluminum Pipe",
+            "5086 Aluminum Pipe",
+            "5052 Aluminum Pipe",
+            "6063 Aluminum Pipe",
+            "5083 Aluminum Pipe",
+            "7075 Aluminum Pipe",
+          ],
+        },
+        {
+          id: 11,
+          name: "Other Pipe",
+          grades: [
+            "Alloy 20 Pipe",
+          ],
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Pipe Fittings",
+      param: "pipe-fittings",
+      description:
+        "Our extensive range of pipe fittings is meticulously designed to ensure the connection and direction of fluid or gas flow within piping systems. Our selection includes essential components such as elbows, tees, reducers, and valves, each crafted for optimal performance and reliability. Whether for complex industrial projects or simple plumbing tasks, our fittings provide crucial support, ensuring your systems operate smoothly and efficiently.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Nickel Alloy P.F.",
+          grades: [
+            "Nickel Alloy",
+            "Incolenel 600",
+            "Incolenel 625",
+            "Incolenel 800",
+            "Incolenel 825",
+            "Hastealloy C22",
+            "Hastealloy C276",
+            "Monel 400",
+          ],
+        },
+        {
+          id: 2,
+          name: "Stainless Steel P.F.",
+          grades: [
+            "Stainless Steel 304",
+            "Stainless Steel 304L",
+            "Stainless Steel 316",
+            "Stainless Steel 316L",
+            "Stainless Steel 310",
+            "Stainless Steel 317L",
+            "Stainless Steel 321",
+            "Stainless Steel 347",
+            "Stainless Steel 904L",
+            "Stainless Steel Forged",
+          ],
+        },
+        {
+          id: 3,
+          name: "Carbon Steel P.F.",
+          grades: [
+            "ASTM A234 Gr WPB",
+            "ASTM A420 Grade WPL6",
+            "Carbon Steel Forged",
+            "ASTM A105 Forged",
+          ],
+        },
+        {
+          id: 4,
+          name: "Other P.F.",
+          grades: [
+            "Alloy Steel",
+            "Nickel Alloy",
+            "Copper Nickel",
+            "Duplex Steel",
+            "Super Duplex",
+            "Titanium",
+            "Brass",
+            "Alloy 20",
+            "NO",
+            "DIN 2609 Carbon Steel Elbow",
+            "Pipe Outlet",
+          ],
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Fasteners",
+      param: "fasteners",
+      description:
+        "Fasteners are hardware devices used to mechanically join two or more objects together. We offer essential fastening items like bolts, nuts, screws, and rivets, crucial for securely fastening diverse objects. These components ensure reliable connections across construction, manufacturing, and automotive industries, among others. Our fasteners combine engineering with durability, ensuring they meet rigorous safety standards and provide solutions for various assembly requirements.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Stainless Steel Fasteners",
+          grades: [
+            "Stainless Steel 304 Fasteners",
+            "Stainless Steel 304L Fasteners",
+            "Stainless Steel 316 Bolts",
+            "Stainless Steel 316L Fasteners",
+            "Stainless Steel 321 Fasteners",
+            "310 Stainless Steel Fasteners",
+            "Duplex Bolts",
+            "Super Duplex Bolts",
+            "Stud Bolts",
+          ],
+        },
+        {
+          id: 2,
+          name: "Nickel Alloy Fasteners",
+          grades: [
+            "Nickel Alloy fasteners",
+            "Inconel 625 fasteners",
+            "Incoloy 800 fasteners",
+            "Incoloy 825 fasteners",
+            "Inconel 718 Bolts",
+            "Hastelloy C22 fasteners",
+            "Hastelloy C276 fasteners",
+            "Monel 400 fasteners",
+          ],
+        },
+        {
+          id: 3,
+          name: "Other Steel Fasteners",
+          grades: [
+            "Copper Nickel Fasteners",
+            "Titanium Fasteners",
+            "Grade 2 Titanium Fasteners",
+            "Titanium Grade 5 Fasteners",
+            "ASTM A193 Grade B7 Bolts",
+            "ASTM A194 Grade 2H",
+            "ASTM A193 Grade B16 Bolts",
+            "Alloy 20 Fasteners",
+            "ASTM A453 grade 660 Bolts",
+          ],
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Flanges",
+      param: "flanges",
+      description:
+        "Flanges play a critical role in connecting components in our product lineup, essential for securely joining pipes, valves, and equipment to maintain a tight seal within piping systems. Our flanges are crafted with precision and durability, meeting stringent standards to ensure long-term performance and safety. Their versatile designs accommodate a wide range of applications, offering solutions for both standard and specialized piping requirements.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Stainless Steel Flanges",
+          grades: [
+            "ASTM A182 F304",
+            "ASTM A182 F304L",
+            "ASTM A182 F310",
+            "Stainless steel 310 flanges",
+            "ASTM A182 F316L",
+            "ASTM A182 Gr F321",
+            "ASTM A182 F347/347H",
+          ],
+        },
+        {
+          id: 2,
+          name: "Carbon Steel Flanges",
+          grades: [
+            "ASTM A105 Forged Steel Flanges",
+            "ASTM A350 Lf2 Flanges",
+            "ASTM A694 Flanges",
+            "ASTM A181 Flanges",
+          ],
+        },
+        {
+          id: 3,
+          name: "Alloy Steel Flanges",
+          grades: [
+            "ASTM A182 Gr F1",
+            "ASTM A182 Gr F5",
+            "ASTM A182 Gr F9",
+            "ASTM A182 Gr F11",
+            "ASTM A182 Gr F22",
+            "ASTM A182 Gr F91",
+          ],
+        },
+        {
+          id: 4,
+          name: "Other Steel Flanges",
+          grades: [
+            "Copper Nickel Flanges",
+            "Duplex Flanges",
+            "Super Duplex Flanges",
+            "Titanium Flanges",
+            "Inconel 600 Flanges",
+            "Inconel 625 Flanges",
+            "Incoloy 800 Flanges",
+            "Incoloy 825 Flanges",
+            "Hastelloy C22 Flanges",
+            "Money 400 Flanges",
+            "Alloy 20 Flanges",
+            "Hastelloy C276 Flanges",
+          ],
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: "Sheets/Plates",
+      param: "sheetsplates",
+      description:
+        "Metal plates and sheets serve as foundational materials in manufacturing, crucial for constructing and fabricating components. They provide flat, thin surfaces used in both construction and manufacturing processes. Our Plates are known for their thickness, they are specifically chosen for structural applications due to their robustness and ability to withstand heavy loads. They come in different grades and finishes to accommodate specific requirements such as strength, conductivity, and aesthetic appeal.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Stainless Steel Sheet",
+          grades: [
+            "304 Stainless Steel Sheet",
+            "304L Stainless Steel Sheet",
+            "ASTM A240 304H",
+            "310 Stainless Steel Plate",
+            "316 Stainless Steel Sheet",
+            "316L Stainless Steel Sheet",
+            "316h Stainless Steel Plate",
+            "317L Stainless Steel Sheet", 
+            "321 Stainless Steel Plate", 
+            "347 Stainless Steel Sheet",
+            "409 Stainless Steel Sheet",
+            "410 Stainless Steel Plate",
+            "446 Stainless Steel Sheet",
+            "Stainless Steel 904L Plate",
+            "Stainless Steel Perforated Sheet",
+            "Stainless Steel Circles",
+          ],
+        },
+        {
+          id: 2,
+          name: "Carbon Steel Plate",
+          grades: [
+            "ASTM A515 Gr 70",
+            "ASTM A515 Gr 60",
+            "ASTM A516 Grade 60",
+            "ASTM A516 Grade 65",
+            "ASTM A516 Grade 70",
+            "ASTM A572 Grade 50",
+            "15MO3 Alloy Steel Plate",
+            "JIS G3101 SS400 Mild Steel Plate",
+            "ASTM A709 Grade 36",
+            "ASTM A283 Grade C",
+            "ASTM A285 Grade C",
+            "ASTM A537 Class 2",
+            "C45 Plate",
+          ],
+        },
+        {
+          id: 3,
+          name: "Alloy Steel Plate",
+          grades: [
+            "ASTM A387 Grade 5",
+            "ASTM A387 Grade 9",
+            "ASTM A387 Grade 11",
+            "ASTM A387 Grade 12",
+            "ASTM A387 Grade 22",
+          ],
+        },
+        {
+          id: 4,
+          name: "Nickel Alloy Plate",
+          grades: [
+            "Hastelloy C276 Plate",
+            "Hastelloy C22 Plate",
+            "Hastelloy B2 Sheet",
+            "Inconel 600 Plate",
+            "Inconel 601 Plate",
+            "Inconel 625 Plate",
+            "Incoloy 800 Plate",
+            "Incoloy 825 Plate",
+            "Monel 400 Plate",
+            "Monel K500 Plate",
+            "Inconel 718 Plate",
+          ],
+        },
+        {
+          id: 5,
+          name: "Duplex Steel Plate",
+          grades: [
+            "2207 Duplex Stainless Steel Plate",
+            "ASTM A240 UNS S31803",
+            "UNS S32750 Plate",
+            "Super Duplex Plate",
+          ],
+        },
+        {
+          id: 6,
+          name: "Copper Nickel Plate",
+          grades: [
+            "90/10 Copper Nickel Sheet",
+            "70/10 Copper Nickel Sheet",
+            "Copper Sheet",
+          ],
+        },
+        {
+          id: 7,
+          name: "Titanium Sheet",
+          grades: [
+            "Titanium Grade 2 Sheet",
+            "Titanium Grade 5 Sheet",
+          ],
+        },
+        {
+          id: 8,
+          name: "Maraging Steel Plate",
+          grades: [
+            "Maraging Steel 300 Alloy Steel Plate",
+            "Maraging Steel 350 Plate",
+          ],
+        },
+        {
+          id: 9,
+          name: "Steel Plate",
+          grades: [
+            "BS 1501 161 430A",
+            "Brass Sheet",
+            "Alloy 20 Plate",
+            "254 SMO Plate",
+            "High Strength Steel Plate",
+            "Shipbuilding Steel Plate",
+            "Boiler Steel Plates",
+            "Manganese Plate",
+            "Aluminium Sheet",
+            "1S 2062 Grade 8 Plate",
+          ],
+        },
+        {
+          id: 10,
+          name: "Stuctural Steel Plate",
+          grades: [
+            "P355nh steel plate",
+            "P355gh steel plate",
+            "P205gh plate",
+            "P275nh steel plate",
+            "S1100QL steel plate",
+            "S960ql steel plate",
+            "S890ql steel plate",
+            "S890QL steel plate",
+            "S355 steel plate",
+            "S355J203 plate",
+            "S275JR plate",
+            "S235JR steel plate",
+            "Heat resistant steel plate",
+            "Weather resistant steel plate",
+            "16m03 plate",
+            "13CrMo4-5 steel plate",
+            "10CrMo9-10 steel plate",
+            "EN 10028-3 Grade P460NH steel plates",
+            "DIN 17155 Steel Plate",
+            "ASTM A387 grade 91 plate",
+            "Stuctural steel plate",
+          ],
+        },
+        {
+          id: 11,
+          name: "Other Plates",
+          grades: [
+            "Chromoly Steel Plate",
+            "HIC Resistant Steel Plate",
+            "Quenched and Tempered Steel Plate",
+            "Alloy N-155",
+            "Corten Steel Plate",
+            "EN 10149-2 S550mc",
+            "Abrasion Resistant Steel Plate",
+            "SABS 1431 Grade 300wa Steel Plate",
+            "Hot rolled coll",
+          ],
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: "Tubes",
+      param: "tubes",
+      description:
+        "We provide a diverse selection of tubes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Carbon Steel Tubes",
+          grades: [
+            "BS-3059 Gr 360",
+            "ASTM A179 Heat Exchanger Tubes",
+            "ASTM A334 GR.1",
+            "ASTM A182 Boiler Tubes",
+            "SA 17B Gr A Boiler Tubes",
+            "13CrMo44 Alloy Steel Boiler Tubes",
+          ],
+        },
+        {
+          id: 2,
+          name: "Alloy Steel Tubes",
+          grades: [
+            "SA209 T1",
+            "SA213 T2",
+            "ASTM A213 T5",
+            "ASTM A213 T9",
+            "ASTM A213 T11",
+            "SA 213 Gr 112",
+            "ASTM A213 T22",
+            "ASTM A213 T91",
+            "ASTM A423 Grade 1",
+          ],
+        },
+        {
+          id: 3,
+          name: "Stainless Steel Tubes",
+          grades: [
+            "Electropolished Stainless Steel Tubing",
+            "Stainless Steel Capillary Tube",
+            "Stainless Steel Heat Exchanger Tube",
+            "Stainless Steel Boiler Tube",
+            "Stainless Steel Coil Tubing",
+            "Stainless Steel Condenser Tubes",
+            "Stainless steel precision tube",
+            "Stainless steel mechanical tubing",
+            "Stainless steel instrumentation tubing",
+            "Stainless steel hydraulic tubing",
+            "High-temperature steel tubing",
+            "Boiler superheater tubes",
+            "EN 10216-5",
+            "DIN EN 10296-2",
+          ],
+        },
+        {
+          id: 4,
+          name: "Nickel Alloy Tubes",
+          grades: [
+            "Inconel 600 Tube",
+            "Inconel 625 Tube",
+            "Inconel 718 Tube",
+            "Hastelloy C276 Tube",
+            "Money 400 Seamless Tube",
+          ],
+        },
+        {
+          id: 5,
+          name: "Other Steel Tubes",
+          grades: [
+            "Duplex 2205 Tube",
+            "Titanium Tube",
+            "ASTM A513 Dom Tubing",
+            "EN 10297-2 seamless tube",
+            "ASTM A269 tubing",
+          ],
+        },
+      ],
+    },
+    {
+      id: 7,
+      name: "Round Bars",
+      param: "roundbar",
+      description:
+        "We supply round, square, and rectangular bars used for structural support or machining specialized components. Our bars are customizable to meet specific size and strength requirements, providing versatile solutions in construction, manufacturing, and engineering. These bars play a vital role in industries such as construction, manufacturing, and engineering, ensuring stability and structural integrity.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Nickel Alloy Round Bars",
+          grades: [
+            "Nickel Alloy Round Bars",
+            "Inconel 600 round bar",
+            "Inconel 625 round bar",
+            "Inconel 718 round bar",
+            "Incoloy 825 round bar",
+            "Incoloy 800 round bar",
+            "Hastelloy C276 round bar",
+            "Hastelloy C22 round bar",
+            "Hastelloy B2 round bar",
+            "Monel 400 round bar",
+            "Monel k500 round bar",
+          ],
+        },
+        {
+          id: 2,
+          name: "Carbon Steel Round Bars",
+          grades: [
+            "ASTM A105 Round Bar",
+            "ASTM A350 LF2 Round Bar",
+            "Alloy Steel Round Bar",
+          ],
+        },
+        {
+          id: 3,
+          name: "Stainless Steel Round Bars",
+          grades: [
+            "Stainless Steel 304 Round Bar",
+            "Stainless Steel 304L Round Bar",
+            "Stainless Steel 316 Round Bar",
+            "316L Stainless Steel Round Bar",
+            "Stainless Steel 310 Round Bar",
+            "Stainless Steel 317l Round Bar",
+            "Stainless Steel 321 Round Bar",
+            "Stainless Steel 347 Round Bar",
+            "Stainless Steel 904l Round Bar",
+            "15-5 PH Stainless Steel Round Bar",
+          ],
+        },
+        {
+          id: 4,
+          name: "Other Steel Round Bars",
+          grades: [
+            "Copper Nickel Round Bar",
+            "Copper Round Bar",
+            "Duplex 2205 Round Bar",
+            "Super Duplex Round Bar",
+            "Titanium Round Bar",
+            "Titanium Grade 2 Round Bar",
+            "Titanium Grade 5 Round Bar",
+            "Aluminium Round Bar",
+            "Cobalt Alloy Rod",
+            "Nitronic 60",
+            "Pump Shaft Quality Stainless Steel",
+            "Bar",
+            "Alloy 20-round bar",
+            "Threaded bar",
+            "Square bar",
+            "Hex bar",
+            "Cold-drawn steel bar",
+          ],
+        },
+      ],
+    },
+    {
+      id: 8,
+      name: "Wire",
+      param: "wire",
+      description:
+        "The wires we manufacture are thin, precise, and designed to excel in conducting electricity or providing structural support. Known for their durability and versatility, our wires meet standards for reliability across various applications. Whether used in electrical systems or for structural purposes, our wires ensure efficient performance and longevity, making them essential components in diverse industries.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+  ],
+  alloys: [],
+  materials: [
+    {
+      id: 1,
+      name: "Stainless Steel",
+      param: "stainless-steel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Stainless Steel Pipe",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Tube",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Sheet",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Round Bar",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Pipe Fittings",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Flanges",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Fasteners",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Stainless Steel Wire",
+          grades: [
+          ],
+        },
+      ],
+    },
+    {
+      id: 2,
+      name: "Duplex Steel",
+      param: "duplex-steel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Duplex Steel Pipe",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Duplex 2205 Tube",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Duplex Steel Plate",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Duplex Steel Pipe Fittings",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Duplex Steel Flanges",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Duplex Steel Fastners",
+          grades: [
+          ],
+        },
+      ],
+    },
+    {
+      id: 3,
+      name: "Super Duplex",
+      param: "super-duplex",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Super Duplex Pipe",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Super Duplex Plate",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Super Duplex Round Bar",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Super Duplex Pipe Fittings",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Super Duplex Stainless Steel Flanges",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Super Duplex Fasteners",
+          grades: [
+          ],
+        },
+      ],
+    },
+    {
+      id: 4,
+      name: "Nickel",
+      param: "nickel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Nickel Pipe",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Nickel Alloy Tubes",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Nickel Alloy Plate",
+          grades: [
+          ],
+        },
+        {
+          id: 1,
+          name: "Nickel Alloy Pipe Fittings",
+          grades: [
+          ],
+        },
+      ],
+    },
+    {
+      id: 5,
+      name: "Inconel",
+      param: "inconel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Inconel Pipe",
+          grades: [
+          ],
+        },
+      ],
+    },
+    {
+      id: 6,
+      name: "Monel",
+      param: "monel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+    {
+      id: 7,
+      name: "Hastelloy",
+      param: "hastelloy",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+    {
+      id: 8,
+      name: "Titanium",
+      param: "titanium",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+    {
+      id: 9,
+      name: "Copper/Brass",
+      param: "copper-brass",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+    {
+      id: 10,
+      name: "Copper Nickel",
+      param: "copper-nickel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+    {
+      id: 12,
+      name: "Carbon Steel",
+      param: "carbon-steel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+    {
+      id: 13,
+      name: "Alloy Steel",
+      param: "alloy-steel",
+      description:
+        "We provide a diverse selection of pipes to meet your specific requirements, offering various sizes, materials, and specifications. Essential for transporting liquids, gases, or solids in industrial processes, pipes are integral to many systems. Whether used in chemical processing, water treatment, or other industries, our pipes ensure durability and reliability for efficient operations.",
+      types: [
+        { id: 1, name: "Welded", image: PipesImg },
+        { id: 2, name: "Seamless", image: PipesImg },
+        { id: 3, name: "Fabricated", image: PipesImg },
+      ],
+      grades: [
+        {
+          id: 1,
+          name: "Wire",
+          grades: [
+            "Stainless Steel Stranded Wire",
+          ],
+        },
+      ],
+    },
+  ],
+};

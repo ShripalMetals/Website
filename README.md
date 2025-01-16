@@ -1,8 +1,8 @@
 # Code to Run the Project:
-python -m venv venv
-venv\Scripts\activate
-npm install
-npm start
+- python -m venv venv
+- venv\Scripts\activate
+- npm install
+- npm start
 
 
 # Getting Started with Create React App
